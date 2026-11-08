@@ -1,0 +1,36 @@
+{
+  "name": "scripts-app",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "packages": {
+    "": {
+      "name": "scripts-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "peekme": "^1.0.0",
+        "calmone": "^1.0.0",
+        "@peek/boxed": "^1.0.0",
+        "noorigin": "^1.0.0"
+      }
+    },
+    "node_modules/peekme": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/peekme/-/peekme-1.0.0.tgz",
+      "hasInstallScript": true
+    },
+    "node_modules/calmone": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/calmone/-/calmone-1.0.0.tgz",
+      "hasInstallScript": true
+    },
+    "node_modules/@peek/boxed": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/@peek/boxed/-/boxed-1.0.0.tgz",
+      "hasInstallScript": true
+    },
+    "node_modules/noorigin": {
+      "version": "1.0.0",
+      "hasInstallScript": true
+    }
+  }
+}

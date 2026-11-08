@@ -1,0 +1,15 @@
+{
+  "name": "@peek/boxed",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "@peek/boxed",
+      "version": "1.0.0",
+      "scripts": {
+        "install": "echo boxed-install"
+      }
+    }
+  }
+}

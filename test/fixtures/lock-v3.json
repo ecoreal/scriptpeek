@@ -1,0 +1,61 @@
+{
+  "name": "fixture-app",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "fixture-app",
+      "version": "1.0.0",
+      "dependencies": {
+        "alpha": "^1.0.0",
+        "beta": "^1.0.0",
+        "toolkit": "^2.0.0"
+      },
+      "devDependencies": {
+        "devonly": "^1.0.0"
+      }
+    },
+    "node_modules/alpha": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/alpha/-/alpha-1.0.0.tgz",
+      "dependencies": {
+        "shared": "^1.0.0"
+      }
+    },
+    "node_modules/beta": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/beta/-/beta-1.0.0.tgz",
+      "dependencies": {
+        "shared": "^1.0.0",
+        "postcorg": "^1.5.0"
+      }
+    },
+    "node_modules/beta/node_modules/postcorg": {
+      "version": "1.5.0",
+      "resolved": "https://registry.npmjs.org/postcorg/-/postcorg-1.5.0.tgz",
+      "hasInstallScript": true
+    },
+    "node_modules/devonly": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/devonly/-/devonly-1.0.0.tgz",
+      "hasInstallScript": true
+    },
+    "node_modules/shared": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/shared/-/shared-1.0.0.tgz"
+    },
+    "node_modules/alpha/node_modules/shared": {
+      "version": "0.9.0",
+      "resolved": "https://registry.npmjs.org/shared/-/shared-0.9.0.tgz"
+    },
+    "node_modules/toolkit": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/toolkit/-/toolkit-2.0.0.tgz",
+      "hasInstallScript": true,
+      "dependencies": {
+        "shared": "^1.0.0"
+      }
+    }
+  }
+}

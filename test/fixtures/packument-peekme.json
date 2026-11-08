@@ -1,0 +1,19 @@
+{
+  "name": "peekme",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "peekme",
+      "version": "1.0.0",
+      "scripts": {
+        "preinstall": "echo preinstall-peekme",
+        "install": "node-gyp rebuild",
+        "postinstall": "echo postinstall-peekme",
+        "prepack": "echo prepack-peekme",
+        "test": "node test.js"
+      }
+    }
+  }
+}

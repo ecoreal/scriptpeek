@@ -1,0 +1,44 @@
+{
+  "name": "scriptpeek",
+  "version": "0.1.0",
+  "description": "See what an npm lockfile will run before you install it — audit lifecycle scripts in one zero-dependency command.",
+  "license": "MIT",
+  "author": "ecoreal <ecoreal@users.noreply.github.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecoreal/scriptpeek.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ecoreal/scriptpeek/issues"
+  },
+  "homepage": "https://github.com/ecoreal/scriptpeek#readme",
+  "type": "module",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "bin": {
+    "scriptpeek": "bin/scriptpeek.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "README.zh-CN.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "npm",
+    "lockfile",
+    "supply-chain",
+    "security",
+    "lifecycle-scripts",
+    "preinstall",
+    "postinstall",
+    "audit",
+    "ci"
+  ]
+}

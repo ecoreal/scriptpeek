@@ -1,0 +1,32 @@
+{
+  "name": "fixture-v1-app",
+  "version": "1.0.0",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "oldcat": {
+      "version": "1.2.3",
+      "resolved": "https://registry.npmjs.org/oldcat/-/oldcat-1.2.3.tgz",
+      "requires": {
+        "oldsafe": "^2.0.0"
+      }
+    },
+    "oldhook": {
+      "version": "3.1.0",
+      "resolved": "https://registry.npmjs.org/oldhook/-/oldhook-3.1.0.tgz",
+      "requires": {
+        "oldcat": "^1.0.0"
+      },
+      "dependencies": {
+        "oldcat": {
+          "version": "1.9.0",
+          "resolved": "https://registry.npmjs.org/oldcat/-/oldcat-1.9.0.tgz"
+        }
+      }
+    },
+    "oldsafe": {
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/oldsafe/-/oldsafe-2.0.1.tgz"
+    }
+  }
+}

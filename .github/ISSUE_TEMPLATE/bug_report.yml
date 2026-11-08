@@ -1,0 +1,101 @@
+name: Bug report
+description: Report something scriptpeek got wrong — wrong detection, wrong output, wrong exit code.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill in the details
+        below — paste command output as **text**, not screenshots.
+        Security-sensitive findings (e.g. ways the detection can be bypassed)
+        belong in a [private security advisory](https://github.com/ecoreal/scriptpeek/security/advisories/new), not here.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened, and what did you expect to happen instead?
+    validations:
+      required: true
+
+  - type: input
+    id: command
+    attributes:
+      label: Command and arguments
+      description: The exact command line you ran, e.g. `scriptpeek scan --json --lockfile package-lock.json`.
+      placeholder: scriptpeek ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-output
+    attributes:
+      label: Actual output (stdout/stderr)
+      description: Full output as text, including any error messages.
+      render: text
+    validations:
+      required: true
+
+  - type: input
+    id: scriptpeek-version
+    attributes:
+      label: scriptpeek version
+      description: Output of `scriptpeek --version`.
+      placeholder: 0.1.0
+    validations:
+      required: true
+
+  - type: input
+    id: node-version
+    attributes:
+      label: Node.js version
+      description: Output of `node --version`.
+      placeholder: v22.11.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Linux
+        - macOS
+        - Windows
+        - Other / not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: lockfile-version
+    attributes:
+      label: Lockfile version
+      description: The `lockfileVersion` field of the `package-lock.json` you scanned.
+      options:
+        - "3"
+        - "2"
+        - "1"
+        - Other / not sure
+    validations:
+      required: false
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: A small self-contained lockfile snippet or steps to reproduce. Redact anything private first.
+      render: text
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues (open and closed) for a similar report.
+          required: true
+        - label: Output above is pasted as text, not as a screenshot.
+          required: true
+        - label: I removed private information (package names, registry hosts, paths) from the output.
+          required: false
